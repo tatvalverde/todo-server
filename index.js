@@ -7,10 +7,13 @@ app.get('/', home);
 app.post('/info', info)
 
 function home (req, res){
-  res.send('Hello, Tati!')
+  res.send('Hello, Tatiana!')
 }
 function info (req, res){
-  res.send('INFO HERE')
+  const a = 123;
+  const b = Math.random();
+  const c = a + b;
+  res.send('INFO here! ' + c);
 }
 
 
