@@ -1,0 +1,19 @@
+{
+  "name": "todo-server",
+  "version": "1.0.0",
+  "description": "Install",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TatianaNaumova5/todo-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TatianaNaumova5/todo-server/issues"
+  },
+  "homepage": "https://github.com/TatianaNaumova5/todo-server#readme"
+}
