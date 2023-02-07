@@ -3,12 +3,12 @@ const app = express();
 const PORT = 5001;
 // localhost:5000/
 
-app.get('/', home);
+app.get('/',home);
 app.post('/info', info);
-function home(reg, res){
+function home(reg,res){
   res.send('Hello, Tanusha!');
 }
-function info(reg, res){
+function info(reg,res){
   const a = 123;
   const b = Math.random();
   const c = a + b;
