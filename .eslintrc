@@ -4,10 +4,12 @@
     "node": true
   },
   "extends": "eslint:recommended",
+  "plugins": ["prettier"],
   "parserOptions": {
     "sourceType": "module"
   },
   "rules": {
+    "prettier/prettier": "error",
     // override default options
     "indent": ["error", 2],
     "linebreak-style": ["error", "unix"],
