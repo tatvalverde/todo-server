@@ -1,10 +1,10 @@
-const express = require('express');
+import express from 'express';
 const app = express();
 const PORT = 5001;
 // localhost:5000/
 
-app.get('/',home);
-app.post('/info', info);
+app.get('/',home); // GET localhost:5000/
+app.post('/info', info); // POST localhost:5000/info
 function home(reg,res){
   res.send('Hello, Tanusha!');
 }
