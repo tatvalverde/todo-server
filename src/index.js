@@ -4,7 +4,12 @@ const PORT = 5001;
 // localhost:5000/
 
 app.get('/',home); // GET localhost:5000/
-app.post('/info', info); // POST localhost:5000/info
+app.post('/info', info);// POST localhost:5000/info
+app.use(home);
+
+function apiNotFound(req, res) {
+  res.send('API not found');
+}
 function home(reg,res){
   res.send('Hello, Tanusha!');
 }
