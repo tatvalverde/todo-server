@@ -1,6 +1,7 @@
 export default function info(reg, res) {
-  const a = 123;
-  const b = Math.random();
-  const c = a + b;
-  res.send('Info here! ' + c);
+
+ const a = req.body.a;
+ const b = req.body.b;
+ const sum = a + b;
+ res.send('Info here! ' + sum );
 }
