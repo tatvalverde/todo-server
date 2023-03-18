@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="045d2184-d3cd-486a-8cd9-41bfb9341dac" name="Changes" comment="renew index">
-      <change afterPath="$PROJECT_DIR$/src/errorHandler.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/home.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/info.js" afterDir="false" />
+    <list default="true" id="045d2184-d3cd-486a-8cd9-41bfb9341dac" name="Changes" comment="add logger and parseResponse files">
+      <change afterPath="$PROJECT_DIR$/src/cors.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/info.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/info.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/parseResponse.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/parseResponse.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,10 +33,12 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/.eslintrc" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/cors.js" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/errorHandler.js" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/home.js" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/index.js" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/info.js" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/parseResponse.js" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -54,7 +56,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Projects/paysis-test",
+    "last_opened_file_path": "C:/Projects/paysis-tests-new",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.standard": "true",
     "node.js.detected.package.tslint": "true",
@@ -76,7 +78,7 @@
       <recent name="C:\Projects\todo-server\src\home.js" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.start">
+  <component name="RunManager" selected="Attach to Node.js/Chrome.Debug">
     <configuration name="Debug" type="ChromiumRemoteDebugType" factoryName="Chromium Remote" port="9229">
       <method v="2" />
     </configuration>
@@ -150,6 +152,19 @@
     <MESSAGE value="Commit in index" />
     <MESSAGE value="delete index" />
     <MESSAGE value="renew index" />
-    <option name="LAST_COMMIT_MESSAGE" value="renew index" />
+    <MESSAGE value="commit in index" />
+    <MESSAGE value="add logger and parseResponse files" />
+    <option name="LAST_COMMIT_MESSAGE" value="add logger and parseResponse files" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/info.js</url>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
